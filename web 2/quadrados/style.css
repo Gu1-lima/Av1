@@ -1,0 +1,29 @@
+div {
+    width: 400px;
+    height: 400px;
+    margin: 25px;
+}
+
+.cubo1 {
+    background-color: rgb(228, 252, 255);
+}
+
+.cubo2 {
+    background-color: rgb(203, 245, 255);
+}
+
+.cubo3 {
+    background-color: rgb(142, 213, 255);
+}
+
+.cubo4 {
+    background-color: rgb(112, 255, 255);
+}
+
+#pai {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+
+}
