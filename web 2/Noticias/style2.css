@@ -6,7 +6,6 @@
 
 .Infos {
     align-self: center;
-    background-color: rgb(109, 109, 109);
     max-width: 800px;
     width: 800px;
     max-height: 1440px;
@@ -22,16 +21,26 @@
 }
 
 .user {
-    background-color: aliceblue;
+    padding: 20px;
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
+.infos-user {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos-user-text {
+    display: flex;
+    gap: 15px;
+}
+
 .h1 {
     font-family: Inter;
     font-size: 39px;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 52px;
     letter-spacing: -0.4620000123977661px;
     text-align: left;
@@ -58,17 +67,19 @@
 
 .infos-user {
     display: flex;
-    list-style: none;
     gap: 10px;
 }
 
-.Published {
+.info-list {
+    list-style: none;
+    display: flex;
     font-family: Inter;
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
+    gap: 5px;
 }
 
 .nome {
@@ -78,4 +89,95 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
+}
+
+.interacoes {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.interacoes-I {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.k {
+    color: #757575;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.end {
+    display: flex;
+    gap: 20px;
+}
+
+.img-g {
+    padding: 30px 50px;
+}
+
+.not-infos {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 70px;
+}
+
+.P {
+    display: flex;
+    flex-direction: column;
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.05999999865889549px;
+    text-align: left;
+}
+
+.p-qua {
+    background-color: #E8F3E8;
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.05999999865889549px;
+    text-align: left;
+}
+
+.list-infos {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 5px;
+}
+
+.infos-not {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 50px 30px;
+}
+
+.infos-N {
+    top: 8px;
+    left: 311.659912109375px;
+    padding: 9px 18.019996643066406px 9px 17px;
+    border-radius: 100px;
+    border: 1px;
+    background: #F2F2F2;
+    ;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
 }
