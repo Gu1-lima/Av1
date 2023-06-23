@@ -1,0 +1,81 @@
+.not {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Infos {
+    align-self: center;
+    background-color: rgb(109, 109, 109);
+    max-width: 800px;
+    width: 800px;
+    max-height: 1440px;
+    height: 900px;
+    padding: 50px 50px;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 150px auto;
+}
+
+.user {
+    background-color: aliceblue;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.h1 {
+    font-family: Inter;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4620000123977661px;
+    text-align: left;
+}
+
+.nome-user {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.seguir {
+    color: #1A8917;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.infos-user {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.Published {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.nome {
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
