@@ -164,13 +164,13 @@
 .infos-not {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 20px;
     padding: 50px 30px;
+    align-items: center;
 }
 
-.infos-N {
+.info-N{
     top: 8px;
-    left: 311.659912109375px;
     padding: 9px 18.019996643066406px 9px 17px;
     border-radius: 100px;
     border: 1px;
